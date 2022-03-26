@@ -1,0 +1,151 @@
+/* საიტის გაფართოება  */
+.container {
+    width: 1600px;
+    height: 3000px;
+}
+
+/* ესენია დასაწყისი მშობელი კონტეინერის ჩაილდ კონტეინერები */
+.f-leftblock {
+    float: left;
+    width: 636px;
+}
+
+.f-rightblock {
+    float: right;
+    width: 636px;
+}
+
+/* header შიგთავსი */
+.logo {
+    margin-left: 140px;
+    margin-right: 123px;
+    vertical-align: middle;
+}
+
+.nav-list {
+    padding-left: 106px;
+    vertical-align: middle;
+}
+
+/* ეს არის პირველი მშობელი ბლოკი */
+.wraper-box {
+    width: 1330px;
+    height: 1412px;
+}
+
+/* მშობელი ბლოკის მინიჭებული ზომები */
+.wraper-box {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.txt-h2 {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #ff7a00;
+    margin-bottom: 83px;
+    margin-left: 172px;
+}
+
+.text-block {
+    margin-bottom: 64px;
+}
+
+.txt-block-h2 {
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 22px;
+}
+
+.txt-block-h3 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: rgb(123, 123, 123);
+}
+
+.txt-block-p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #ff7a00;
+    display: inline-block;
+}
+
+.img-block-ft {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* აქედან load-more და ფუტერი წავა */
+.img-load-more {
+    width: 190px;
+    position: relative;
+}
+
+.load-more-h3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    color: aliceblue;
+}
+
+/* footer */
+.footer-image {
+    margin-top: 134px;
+}
+
+
+/* აქედან იწყება ბოლო ბლოკი ფუტერი */
+.block-box {
+    width: 1386px;
+}
+
+.pirveli-box,
+.meore-box,
+.mesame-box,
+.meotxe-box {
+    margin-left: 138px;
+    display: inline-block;
+    margin-top: 81px;
+}
+
+.meore-box {
+    margin-left: 200px;
+}
+
+.mesame-box {
+    margin-left: 200px;
+}
+
+.meotxe-box {
+    margin-left: 200px;
+    vertical-align: top;
+    margin-bottom: 26px;
+}
+
+.footer-img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-h2 {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #282828;
+}
+
+.nav-listt {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #7b7b7b;
+    margin-top: 17px;
+}
+
+.block-box {
+    content: ' ';
+    clear: both;
+    display: block;
+}
