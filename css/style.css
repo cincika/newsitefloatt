@@ -4,27 +4,67 @@
     height: 3000px;
 }
 
-/* ესენია დასაწყისი მშობელი კონტეინერის ჩაილდ კონტეინერები */
-.f-leftblock {
+/* base elemeent */
+.f-left {
     float: left;
     width: 636px;
 }
 
-.f-rightblock {
+.f-right {
     float: right;
     width: 636px;
 }
 
-/* header შიგთავსი */
-.logo {
-    margin-left: 140px;
-    margin-right: 123px;
-    vertical-align: middle;
+.clear {
+    clear: both;
 }
 
-.nav-list {
-    padding-left: 106px;
-    vertical-align: middle;
+/* header შიგთავსი */
+
+.logo {
+    float: left;
+    margin-left: 70px;
+}
+
+.f-left-li {
+    float: left;
+    margin-top: 20px;
+}
+
+.nav-a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-left: 50px;
+    color: #181c28;
+}
+
+.nav-ul::after {
+    content: ' ';
+    clear: left;
+    display: block;
+
+}
+
+.head-box::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* აქ დაიწყება ბანერი */
+.banner {
+    width: 100%;
+
+    align-items: center;
+    color: #7b7b7b;
+    margin-top: 20px;
+}
+
+.ban-1 {
+
+    align-items: center;
+    color: #ff7a00;
+    margin-top: 20px;
 }
 
 /* ეს არის პირველი მშობელი ბლოკი */
@@ -33,12 +73,14 @@
     height: 1412px;
 }
 
-/* მშობელი ბლოკის მინიჭებული ზომები */
 .wraper-box {
     content: ' ';
     clear: both;
     display: block;
 }
+
+/* მშობელი ბლოკის მინიჭებული ზომები */
+
 
 .txt-h2 {
     font-size: 18px;
@@ -79,23 +121,6 @@
 }
 
 /* აქედან load-more და ფუტერი წავა */
-.img-load-more {
-    width: 190px;
-    position: relative;
-}
-
-.load-more-h3 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    color: aliceblue;
-}
-
-/* footer */
-.footer-image {
-    margin-top: 134px;
-}
 
 
 /* აქედან იწყება ბოლო ბლოკი ფუტერი */
@@ -144,7 +169,7 @@
     margin-top: 17px;
 }
 
-.block-box {
+.block-box::after {
     content: ' ';
     clear: both;
     display: block;
