@@ -8,11 +8,13 @@
 .f-left {
     float: left;
     width: 636px;
+    padding-left: 50px;
 }
 
 .f-right {
     float: right;
     width: 636px;
+    padding-right: 100px;
 }
 
 .clear {
@@ -24,6 +26,7 @@
 .logo {
     float: left;
     margin-left: 70px;
+    margin-bottom: 26px;
 }
 
 .f-left-li {
@@ -53,18 +56,33 @@
 
 /* აქ დაიწყება ბანერი */
 .banner {
-    width: 100%;
-
-    align-items: center;
-    color: #7b7b7b;
-    margin-top: 20px;
+    position: relative;
+    top: 0%;
+    left: 0%;
 }
 
 .ban-1 {
+    position: absolute;
+    top: 24%;
+    left: 38.5%;
+    color: aliceblue;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    width: 202px;
 
-    align-items: center;
-    color: #ff7a00;
-    margin-top: 20px;
+}
+
+.ban-2 {
+    position: absolute;
+    top: 22.2%;
+    left: 36%;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 22px;
+    width: 274px;
 }
 
 /* ეს არის პირველი მშობელი ბლოკი */
@@ -73,7 +91,7 @@
     height: 1412px;
 }
 
-.wraper-box {
+.wraper-box::after {
     content: ' ';
     clear: both;
     display: block;
@@ -86,8 +104,7 @@
     font-size: 18px;
     font-family: 'Poppins';
     color: #ff7a00;
-    margin-bottom: 83px;
-    margin-left: 172px;
+    margin: 87px 1307px 83px 172px;
 }
 
 .text-block {
@@ -121,6 +138,25 @@
 }
 
 /* აქედან load-more და ფუტერი წავა */
+.center1,
+.img-load-more {
+    position: relative;
+    top: 0%;
+    left: 300px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 134px;
+}
+
+.load-more-h3 {
+    position: absolute;
+    top: 15%;
+    left: 180%;
+    width: 94px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #ffff;
+}
 
 
 /* აქედან იწყება ბოლო ბლოკი ფუტერი */
