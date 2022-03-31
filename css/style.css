@@ -1,20 +1,18 @@
 /* საიტის გაფართოება  */
 .container {
-    width: 1600px;
-    height: 3000px;
+    width: 100%;
+
 }
 
 /* base elemeent */
 .f-left {
     float: left;
     width: 636px;
-    padding-left: 50px;
+    margin: 40px 10px 20px 50px;
 }
 
 .f-right {
-    float: right;
-    width: 636px;
-    padding-right: 100px;
+    margin-left: 58px;
 }
 
 .clear {
@@ -23,28 +21,31 @@
 
 /* header შიგთავსი */
 
-.logo {
+.head-box .logo img {
+    margin-left: 123px;
+    vertical-align: middle;
     float: left;
     margin-left: 70px;
-    margin-bottom: 26px;
 }
 
-.f-left-li {
+.head-box nav {
     float: left;
     margin-top: 20px;
+    vertical-align: middle;
+    margin-left: 100px;
+
 }
 
-.nav-a {
-    font-family: 'Poppins';
+.head-box nav ul li {
+    margin-left: 58px;
+    float: left;
+    vertical-align: middle;
+}
+
+.head-box nav ul li a {
     font-size: 16px;
-    margin-left: 50px;
+    font-family: 'Poppins';
     color: #181c28;
-}
-
-.nav-ul::after {
-    content: ' ';
-    clear: left;
-    display: block;
 
 }
 
@@ -55,40 +56,33 @@
 }
 
 /* აქ დაიწყება ბანერი */
-.banner {
+div .banner {
     position: relative;
-    top: 0%;
-    left: 0%;
+
 }
 
 .ban-1 {
     position: absolute;
-    top: 24%;
+    top: 29%;
     left: 38.5%;
     color: aliceblue;
     font-size: 48px;
     font-family: 'Playfair Display';
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-    width: 202px;
-
 }
 
 .ban-2 {
     position: absolute;
-    top: 22.2%;
-    left: 36%;
+    top: 25%;
+    left: 33%;
     color: white;
     font-family: 'Poppins';
     font-size: 22px;
-    width: 274px;
+
 }
 
 /* ეს არის პირველი მშობელი ბლოკი */
 .wraper-box {
-    width: 1330px;
-    height: 1412px;
+    width: 100%;
 }
 
 .wraper-box::after {
@@ -100,29 +94,21 @@
 /* მშობელი ბლოკის მინიჭებული ზომები */
 
 
-.txt-h2 {
-    font-size: 18px;
-    font-family: 'Poppins';
-    color: #ff7a00;
-    margin: 87px 1307px 83px 172px;
-}
-
-.text-block {
-    margin-bottom: 64px;
-}
-
 .txt-block-h2 {
-    font-size: 36px;
     font-family: 'Playfair Display';
+    font-size: 36px;
     font-weight: bold;
-    font-style: normal;
+    color: #181c28;
     margin-bottom: 22px;
 }
 
-.txt-block-h3 {
+.text-block-h3 {
     font-family: 'Poppins';
     font-size: 16px;
-    color: rgb(123, 123, 123);
+    color: #7b7b7b;
+    margin-bottom: 22px;
+
+
 }
 
 .txt-block-p {
@@ -130,6 +116,8 @@
     font-size: 14px;
     color: #ff7a00;
     display: inline-block;
+    margin-top: 13px;
+
 }
 
 .img-block-ft {
@@ -138,30 +126,25 @@
 }
 
 /* აქედან load-more და ფუტერი წავა */
-.center1,
-.img-load-more {
+.center1 {
     position: relative;
-    top: 0%;
-    left: 300px;
-    width: 200px;
-    align-items: center;
+    margin-top: 99px;
+    margin-left: 35%;
     margin-bottom: 134px;
+
 }
 
 .load-more-h3 {
     position: absolute;
-    top: 15%;
-    left: 180%;
-    width: 94px;
-    font-family: 'Poppins';
-    font-size: 16px;
-    color: #ffff;
+    top: 22px;
+    left: 50px;
+    color: white;
 }
 
 
 /* აქედან იწყება ბოლო ბლოკი ფუტერი */
 .block-box {
-    width: 1386px;
+    width: 100%;
 }
 
 .pirveli-box,
@@ -169,27 +152,8 @@
 .mesame-box,
 .meotxe-box {
     margin-left: 138px;
-    display: inline-block;
+    float: left;
     margin-top: 81px;
-}
-
-.meore-box {
-    margin-left: 200px;
-}
-
-.mesame-box {
-    margin-left: 200px;
-}
-
-.meotxe-box {
-    margin-left: 200px;
-    vertical-align: top;
-    margin-bottom: 26px;
-}
-
-.footer-img {
-    display: inline-block;
-    vertical-align: top;
 }
 
 .footer-h2 {
